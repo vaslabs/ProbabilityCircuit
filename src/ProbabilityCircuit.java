@@ -71,7 +71,7 @@ abstract class Circuit implements Logical {
     }//activate
     
     public void generateReport() {
-        for (int i = 0; i < inputs.length || i < inputs.length; i++) {
+        for (int i = 0; i < inputs.length || i < outputs.length; i++) {
             if (i >= inputs.length)
                 System.out.print(" ------>");
             else
