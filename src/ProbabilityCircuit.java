@@ -57,9 +57,6 @@ abstract class Circuit implements Logical {
         return this.inputs;
     }
     
-    public void setOutputs(boolean[] outputs) {
-        this.outputs = outputs;
-    }
     public boolean[] getOutputs() {
         return this.outputs;
     }
